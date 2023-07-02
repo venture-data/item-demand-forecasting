@@ -14,9 +14,9 @@ st.set_page_config(page_title='Item Demand Forecasting', page_icon=':bar_chart:'
 
 # Page title and description
 st.title('Item Demand Forecasting')
-st.write('''This app generates item demand forecasting for next 7 days based on a user input. Once
-         a user inputs a value, the program will build a dummy dataset of a item demand forecast and then
-         build a forecasting model on and predicts the forecasting for next 7 days.''')
+#st.write('''This app generates item demand forecasting for next 7 days based on a user input. Once
+#        a user inputs a value, the program will build a dummy dataset of a item demand forecast and then
+#        build a forecasting model on and predicts the forecasting for next 7 days.''')
 
 # User input
 user_input = st.number_input('Enter an integer value for your current demand', value=50, step=1)
